@@ -11,7 +11,8 @@ function MyPDFViewer(props) {
   const [isLoadingPDF, setIsLoadingPDF] = useState(true);
   const [selectedPdf, setSelectedPdf] = useState(0);
   const [pdfURL, setPdfURL] = useState([]);
-  const API_URL = 'http://192.168.0.25:8000/';
+  //const API_URL = 'http://192.168.0.25:8000/';
+  const API_URL = 'https://kapibara0510.tplinkdns.com/api';
 
 
   useEffect(() => {
